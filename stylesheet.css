@@ -1,38 +1,31 @@
 h1{
   color: #e6855e;
   font-size:30px;
-  background-color:#7FFFD4;
+  background-color:#0000FF;
   height:80px;
   width:200px;
-
 }
-
 p {
   /* Gantikan warna ke #ff000 */
   color: #ff0000;
 }
-
 li{
   color:#444;
 }
-
 .selected{
   color:#ff0000;
 }
-
 img{
   height:50px;
-  width:70px;
   float:right;
+  width:70px;
 }
-
 li {
   list-style: none;
   float:left;
 }
 padding:33px 20px;
 }
-
 .header-logo{
   font-size;36px;
   float:left;
