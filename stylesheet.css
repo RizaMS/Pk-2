@@ -7,3 +7,11 @@ p {
   /* Gantikan warna ke #ff000 */
   color: #ff0000;
 }
+
+li{
+  color:#444;
+}
+
+.selected{
+  color:#ff0000;
+}
