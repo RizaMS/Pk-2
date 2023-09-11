@@ -49,6 +49,7 @@ li {
 }
 
 .main {
+  padding: 100px 80px;
   /* Hapuskan CSS background-color */
   background-color: #bdf7f1;
   /* Hapuskan CSS height */
@@ -57,13 +58,19 @@ li {
 }
 
 /* Ganti font-size tag <h1> di dalam copy-container */
-
+.copy-container h1{
+  font-size:140px;
+}
 
 /* Ganti font-size tag <h2> di dalam copy-container */
-
+.copy-container h2{
+  font-size:60px;
+}
 
 /* Ganti color tags <span> di dalam copy-container */
-
+.copy-container span{
+  color:#ff4a4a;
+}
 .footer {
   background-color: #2f5167;
   color: #fff;
