@@ -1,42 +1,28 @@
-h1{
-  color: #e6855e;
-  font-size:30px;
-  background-color:#0000FF;
-  height:80px;
-  width:200px;
-}
-p {
-  /* Gantikan warna ke #ff000 */
-  color: #ff0000;
-}
-li{
-  color:#444;
-  padding-top:33px;
-  padding-right:20px;
-  padding-bottom:33px;
-  padding-left:20px;
-}
-.selected{
-  color:#ff0000;
-}
-img{
-  height:50px;
-  float:right;
-  width:70px;
+body {
+  font-family: "Avenir Next";
 }
 
 li {
   list-style: none;
-  float:left;
+  float: left;
+  /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
   padding-top:33px;
   padding-right:20px;
   padding-bottom:33px;
   padding-left:20px;
 }
 
-.header-logo{
-  font-size;36px;
-  float:left;
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+ 
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
   padding-top:20px;
   padding-right:40px;
   padding-bottom:20px;
@@ -46,4 +32,9 @@ li {
 .main {
   background-color: #bdf7f1;
   height: 600px;
+}
+
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
 }
