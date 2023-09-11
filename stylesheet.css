@@ -11,6 +11,10 @@ p {
 }
 li{
   color:#444;
+  padding-top:33px;
+  padding-right:20px;
+  padding-bottom:33px;
+  padding-left:20px;
 }
 .selected{
   color:#ff0000;
@@ -20,15 +24,26 @@ img{
   float:right;
   width:70px;
 }
+
 li {
   list-style: none;
   float:left;
+  padding-top:33px;
+  padding-right:20px;
+  padding-bottom:33px;
+  padding-left:20px;
 }
-padding:33px 20px;
-}
+
 .header-logo{
   font-size;36px;
   float:left;
-  padding:20px 40px;
+  padding-top:20px;
+  padding-right:40px;
+  padding-bottom:20px;
+  padding-left:40px;
 }
 
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
