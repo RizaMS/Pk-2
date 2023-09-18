@@ -23,10 +23,16 @@ li {
   padding: 33px 20px;
 }
 
-.main {
-  padding: 100px 80px;
+.main h1{
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+  margin-bottom:10px;
 }
-
+.main p{
+  opacity:0.7;
+  margin-bottom:3px;
+}
 .copy-container h1 {
   font-size: 140px;
 }
