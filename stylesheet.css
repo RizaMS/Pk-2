@@ -33,10 +33,19 @@ li {
   opacity:0.7;
   margin-bottom:3px;
 }
-.copy-container h1 {
-  font-size: 75px;
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
+/* Tambahkan CSS untuk top-wrapper */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+}
 .copy-container h2 {
   font-size: 60px;
 }
