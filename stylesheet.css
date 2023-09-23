@@ -1,10 +1,21 @@
 body {
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Lucida Grande", sans-serif;
+  margin: 0;
 }
+
+/* General Styles */
 
 li {
   list-style: none;
 }
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
 
 .header {
   background-color: #26d0c9;
@@ -23,29 +34,21 @@ li {
   padding: 33px 20px;
 }
 
-.main h1{
-  opacity:0.7;
-  font-size:45px;
-  letter-spacing:5px;
-  margin-bottom:10px;
-}
-.main p{
-  opacity:0.7;
-  margin-bottom:3px;
-}
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+.header-list li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-/* Tambahkan CSS untuk top-wrapper */
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-  background-size: cover;
-  color: white;
+/* Main Content Styles */
+
+.main {
+  padding: 100px 80px;
 }
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
 .copy-container h2 {
   font-size: 60px;
 }
@@ -76,10 +79,27 @@ li {
   margin-top: 30px;
 }
 
-/* Gantikan property padding-top milik contact-form to 100px */
 .contact-form {
   padding-top: 100px;
 }
+
+/* Input and Textarea Styles */
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+/* Footer Styles */
 
 .footer {
   background-color: #2f5167;
@@ -99,4 +119,146 @@ li {
 
 .footer-list li {
   padding-bottom: 20px;
+}
+
+/* Top Wrapper Styles */
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+/* Lesson Wrapper Styles */
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+/* Message Wrapper Styles */
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* Footer Styles */
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
 }
